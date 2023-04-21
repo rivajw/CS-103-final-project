@@ -11,6 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://unpkg.com/scrollreveal"></script>
+		<script>
+			ScrollReveal({ reset: true });
+		</script>
 	</head>
 	<body class="single is-preload">
 
@@ -101,7 +104,7 @@
 								<header>
 									<div class="title">
 										<h2><a href="#">About our Staff</a></h2>
-										<p>Aamir Faruqui, Tazeen Ghaznavi, Mo Myet, Kimberly Heiny, Allison Something</p>
+										<p>Aamir Faruqui, Tazeen Ghaznavi, Kimberly Heiny, Allison Something</p>
 										
 									</div>
 									<!--<div class="meta">
@@ -110,6 +113,7 @@
 									</div>-->
 								</header>
 								<span class="image featured"><img src="images/staff.jpg" alt="" /></span>
+								<div class="scroll">
 								<h3>About Dr. Faruqui</h3>
 								<img src="images/AamirFaruquiMDMBA.jpg" alt="">
 								<p>Dr. Faruqui is a pulmlnologist with over 20 years of experience. He has been the president of Aamir A Faruqui, MD Inc. since June of 2006. After receiving his MBBS from Aga Khan University in Pakistan in 1991, Dr. Faruqui moved to Illinois where he completed his fellowship in Pulmonary & Critical Care at the University of Illinois Chicago. Dr. Faruqui also completed a fellowship at Stanford University in Sleep Medicine in 2000, before receiving an MBA from the University of Chicago in 2015.</p>
@@ -119,7 +123,8 @@
                    					<li>American Board of IM/Critical Care Medicine</li>
                    					<li>American Board of IM/Sleep Medicine</li>
                 				</ol>
-
+							</div>
+							<div class="scroll2">
 								<h3>About Dr. Faruqui</h3>
 								<img src="images/AamirFaruquiMDMBA.jpg" alt="">
 								<p>Dr. Faruqui is a pulmlnologist with over 20 years of experience. He has been the president of Aamir A Faruqui, MD Inc. since June of 2006. After receiving his MBBS from Aga Khan University in Pakistan in 1991, Dr. Faruqui moved to Illinois where he completed his fellowship in Pulmonary & Critical Care at the University of Illinois Chicago. Dr. Faruqui also completed a fellowship at Stanford University in Sleep Medicine in 2000, before receiving an MBA from the University of Chicago in 2015.</p>
@@ -129,7 +134,9 @@
                    					<li>American Board of IM/Critical Care Medicine</li>
                    					<li>American Board of IM/Sleep Medicine</li>
                 				</ol>
+							</div>
 
+							<div class="scroll3">
 								<h3>About Dr. Faruqui</h3>
 								<img src="images/AamirFaruquiMDMBA.jpg" alt="">
 								<p>Dr. Faruqui is a pulmlnologist with over 20 years of experience. He has been the president of Aamir A Faruqui, MD Inc. since June of 2006. After receiving his MBBS from Aga Khan University in Pakistan in 1991, Dr. Faruqui moved to Illinois where he completed his fellowship in Pulmonary & Critical Care at the University of Illinois Chicago. Dr. Faruqui also completed a fellowship at Stanford University in Sleep Medicine in 2000, before receiving an MBA from the University of Chicago in 2015.</p>
@@ -139,8 +146,7 @@
                    					<li>American Board of IM/Critical Care Medicine</li>
                    					<li>American Board of IM/Sleep Medicine</li>
                 				</ol>
-
-								
+							</div>
 			
 							<!--	<footer>
 									<ul class="stats">
@@ -169,6 +175,11 @@
 			</div>
 
 		<!-- Scripts -->
+		<script>
+			ScrollReveal().reveal('.scroll');
+			ScrollReveal().reveal('.scroll2', { delay: 500 });
+			ScrollReveal().reveal('.scroll3', { delay: 500 });
+		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

@@ -197,12 +197,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-	#mainpic {
-			max-width: 100%;
-			height: auto;
-			display: table;
-			margin: 0 auto;
-	}
+	#mainpic
 
 		a:before {
 			-moz-transition: color 0.2s ease;

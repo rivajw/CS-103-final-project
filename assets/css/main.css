@@ -192,6 +192,9 @@ input, select, textarea {
 	}
 	#biglogo {
 		border-bottom: none;
+		height: 5em;
+		width: 5em;
+		position: relative;
 	}
 
 		a:before {

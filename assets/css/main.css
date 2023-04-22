@@ -192,8 +192,8 @@ input, select, textarea {
 	}
 	#biglogo {
 		border-bottom: none;
-		height: 5em;
-		width: 5em;
+		height: 10vh;
+		width: 10vw;
 		position: relative;
 	}
 

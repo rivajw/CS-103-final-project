@@ -6,11 +6,15 @@
 -->
 <html>
 	<head>
-		<title>Aamir A. Faruqui MD Inc. | Contact</title>
+		<title>Contact | Aamir A. Faruqui MD Inc.</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="index.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script>
+			ScrollReveal({ reset: true });
+		</script>
 	</head>
 	<body class="single is-preload">
 
@@ -24,8 +28,8 @@
 							<ul>
 								<li><a href="index.html">Home</a></li>
 								<li><a href="staff.html">Staff</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Forms</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="forms.html">Forms</a></li>
 								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
@@ -63,42 +67,27 @@
 								<ul class="links">
 									<li>
 										<a href="index.html">
-											<h3>Home</h3>
-											<!--
-											<p>Feugiat tempus veroeros dolor</p>
-											-->
+											<h3>Home</h3>									
 										</a>
 									</li>
 									<li>
-										<a href="#">
+										<a href="staff.html">
 											<h3>Staff</h3>
-											<!--
-											<p>Sed vitae justo condimentum</p>
-											-->
 										</a>
 									</li>
 									<li>
-										<a href="#">
+										<a href="services.html">
 											<h3>Services</h3>
-											<!--
-											<p>Phasellus sed ultricies mi congue</p>
-											-->
 										</a>
 									</li>
 									<li>
-										<a href="#">
+										<a href="forms.html">
 											<h3>Forms</h3>
-											<!--
-											<p>Porta lectus amet ultricies</p>
-											-->
 										</a>
 									</li>
 									<li>
 										<a href="contact.html">
 											<h3>Contact</h3>
-											<!--
-											<p>Porta lectus amet ultricies</p>
-											-->
 										</a>
 									</li>
 								</ul>
@@ -127,7 +116,8 @@
 										<!--
 										<time class="published" datetime="2015-11-01">November 1, 2015</time>
 										-->
-										<a href="#" class="author"><span class="name">Aamir A. Faruqui</span><img src="images/avatar.jpg" alt="" /></a>
+										<!-- <a href="#" class="author"><span class="name">Aamir A. Faruqui</span><img src="images/avatar.jpg" alt="" /></a> -->
+										<img src="images/Logo.jpg" alt= "logo" />
 									</div>
 								</header>
 								<!--
@@ -136,6 +126,7 @@
 								<p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed fringilla lectus molestie sit amet. Praesent eu tortor viverra lorem mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper tellus sit amet mattis dignissim. Phasellus ut metus ligula. Curabitur nec leo turpis. Ut gravida purus quis erat pretium, sed pellentesque massa elementum. Fusce vestibulum porta augue, at mattis justo. Integer sed sapien fringilla, dapibus risus id, faucibus ante. Pellentesque mattis nunc sit amet tortor pellentesque, non placerat neque viverra. </p>
 								-->
 								<!-- Content -->
+								<div id="location">
 								<h1> Location </h1>
 								<ul class="content" style="text-indent: 3%; list-style-type: none;">
 									<li><strong>Address:</strong> 2121 Ygnacio Valley Rd # E104, Walnut Creek, CA 94598</li>
@@ -145,13 +136,17 @@
 									width="90%" height="600"
 									allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
+								</div>
 								
+								<div id="contact">
 								<h1> Contact Information </h1>
 									<ul class="content" style="text-indent: 3%; list-style-type: none;">
 										<li><strong>Phone:</strong> (925) 934-2121</li>
 										<li><strong>Email:</strong> <a href="mailto:aamirfaruquimd@yahoo.com">aamirfaruquimd@yahoo.com</a></li>
 									</ul>
+								</div>
 								
+								<div id="open">
 								<h1>Open Hours</h1>
 									<ul class="content" style="text-indent: 3%; list-style-type: none;">
 										<li><strong>Mon:</strong> 9AM - 4:30PM</li>
@@ -162,7 +157,9 @@
 										<li><strong>Sat:</strong> Closed</li>
 										<li><strong>Sun:</strong> Closed</li>
 									</ul>
+								</div>
 								
+								<div id="affiliations">
 								<h1>Hospital Affiliations</h1>
 									<ul class="content" style="text-indent: 3%; list-style-type: none;">
 										<li><strong>i.</strong> John Muir Walnut Creek, CA</li>
@@ -172,6 +169,7 @@
 										<li><strong>v.</strong> Kindred Hospital San Leandro, CA </li>
 										<li><strong>vi.</strong> Generation Subacute Rossmoor, CA</li>
 									</ul>
+								</div>
 								<!--
 								<footer>
 									<ul class="stats">
@@ -188,18 +186,27 @@
 				<!-- Footer -->
 					<section id="footer">
 						<ul class="icons">
+							<!--
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							-->
+							<li><a href="mailto:aamirfaruquimd@yahoo.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
-						<p class="copyright">&copy; Aamir A. Faruqui MD Inc. 2023 Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+						<p class="copyright">&copy; <a target="_blank" href="credit.html">Aamir A. Faruqui MD Inc.</a> <br> Design: <a target="_blank" href="http://html5up.net">HTML5 UP</a>.</p>
 					</section>
 
 			</div>
 
 		<!-- Scripts -->
+		<script>
+			ScrollReveal().reveal('#location', {delay: 200});
+			ScrollReveal().reveal('#contact', {delay: 200});
+			ScrollReveal().reveal('#open', { delay: 200 });
+			ScrollReveal().reveal('#affiliations', { delay: 200 });
+			ScrollReveal().reveal('#footer', { delay: 200 });
+		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

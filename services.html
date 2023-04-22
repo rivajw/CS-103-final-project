@@ -155,17 +155,7 @@
 										<button onclick="sendMail();">Submit</button>
 									</form>
 									
-									<script>
-										function sendMail() {
-										var link = "faruqui@bu.edu"
-										+ "?cc="
-										+ "&subject=" + escape("Consultation for " + document.getElementById('name').value)
-										+ "&body=" + escape(document.getElementById('body').value)
-									;
-							   
-									window.location.href = link;
-								}
-									</script>
+									
 								</div>
 							
 								<footer>
@@ -200,6 +190,17 @@
 			ScrollReveal().reveal('#Certifications', { delay: 200 });
 			ScrollReveal().reveal('#consult', { delay: 200 });
 			ScrollReveal().reveal('#footer', { delay: 200 });
+		</script>
+		<script>
+			function sendMail() {
+			var link = "faruqui@bu.edu"
+			+ "?cc="
+			+ "&subject=" + escape("Consultation for " + document.getElementById('name').value)
+			+ "&body=" + escape(document.getElementById('body').value)
+		;
+   
+		window.location.href = link;
+	}
 		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>

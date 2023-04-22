@@ -197,21 +197,12 @@ input, select, textarea {
 		position: relative;
 	}
 
-	.responsive{
-		max-width:100%;
-		max-height:100%;
-	  }
-	 
-	 .center{
-	   position: absolute;
-	   top: 50%;
-	   left: 50%; 
-	   transform: translate(-50%, -50%);
-	 }
-	 
-	 #parent{
-	   position: relative;
-	 }
+	#mainpic {
+			max-width: 100%;
+			height: auto;
+			display: table;
+			margin: 0 auto;
+	}
 
 		a:before {
 			-moz-transition: color 0.2s ease;

@@ -33,3 +33,4 @@ Credits:
 
 - Content
 Aamir A. Faruqui MD Inc. by Maxwell Higa, Aadil Faruqui, Jiawei Sun.
+All right reserved.

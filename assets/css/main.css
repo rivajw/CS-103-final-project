@@ -190,6 +190,9 @@ input, select, textarea {
 		color: inherit;
 		text-decoration: none;
 	}
+	#biglogo {
+		border-bottom: none;
+	}
 
 		a:before {
 			-moz-transition: color 0.2s ease;

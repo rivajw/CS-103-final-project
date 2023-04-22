@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -112,8 +113,22 @@
 									</div>-->
 								</header>
 								<img src="images/staff.jpg" alt="photo of all staff" width="100%" height=""/>
-								<!--<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-								<footer>
+								<h3 style="padding-top: 2vw;">Welcome to Aamir A. Faruqui MD Inc. - Your Premier Sleep and Pulmonary Care Provider in Walnut Creek!</h3>
+
+								<p>Aamir A. Faruqui MD Inc. is a leading medical private practice specializing in sleep and pulmonary conditions. Established in 2006, our practice has been proudly serving the community of Walnut Creek and its surrounding areas for over 17 years.</p>
+
+								<p>At Aamir A. Faruqui MD, we are dedicated to providing attentive and personalized care to each and every one of our patients. We understand that sleep and pulmonary conditions can greatly impact the quality of life, and we strive to provide compassionate and comprehensive care to help our patients achieve optimal health and well-being.</p>
+
+								<p>Led by Dr. Aamir A. Faruqui, a highly experienced and board-certified sleep and pulmonary specialist, our practice offers a wide range of services to address various sleep and pulmonary conditions. From diagnosing and treating sleep apnea to managing respiratory conditions such as asthma, chronic obstructive pulmonary disease (COPD), and interstitial lung disease, our team of experts is committed to providing the highest standard of care.</p>
+
+								<p>What sets us apart is our personalized approach to patient care. We take the time to listen to our patients' concerns, thoroughly evaluate their condition, and develop customized treatment plans tailored to their individual needs. We believe that building a strong doctor-patient relationship based on trust and communication is essential in delivering the best possible care.</p>
+
+								<p>We provide advanced diagnostic and treatment technologies, allowing us to provide cutting-edge care in a comfortable and welcoming environment. We work closely with other healthcare providers to ensure seamless coordination of care and provide a comprehensive and holistic approach to sleep and pulmonary health.</p>
+
+								<p>We are proud to be a part of the Walnut Creek community and strive to make a positive impact on the health and well-being of our patients. Whether you are struggling with sleep apnea, respiratory conditions, or other sleep or pulmonary issues, we are here to provide you with expert care and support.</p>
+
+								<p>Thank you for choosing Aamir A. Faruqui MD for your sleep and pulmonary health needs. We look forward to serving you and helping you achieve better health and improved quality of life. Contact us today to schedule an appointment and experience the attentive and personal care that sets us apart.</p>
+								<!-- <footer>
 									<ul class="actions">
 										<li><a href="single.html" class="button large">Continue Reading</a></li>
 									</ul>
@@ -505,8 +520,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<section id="intro">
 								<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
 								<header>
-									<h2>Aamir A. Faruqui MD Inc.</h2>
-									<p>Serving Walnut Creek Since 2006</p>
+									<h2 id="type1"></h2>
+									<p id="type2"></p>
 								</header>
 							</section>
 
@@ -610,11 +625,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						-->
 						<!-- About -->
 							<section class="blurb">
-								<h2>About</h2>
-								<p>Dr. Faruqui is a pulmlnologist with over 20 years of experience. He has been the president of Aamir A Faruqui, MD Inc. since June of 2006.</p>
-								<!-- <ul class="actions">
-									<li><a href="single.html" class="button">Learn More</a></li>
-								</ul> -->
+								<h2>Contact</h2>
+								<ul style="list-style-type: none;">
+									<li><strong>Phone:</strong> (925) 934-2121</li>
+									<li><strong>Email: </strong> <a href="mailto:aamirfaruquimd@yahoo.com">aamirfaruquimd@yahoo.com</a></li>
+									<li><strong>Address:</strong> 2121 Ygnacio Valley Rd # E104, Walnut Creek, CA 94598</li>
+								</ul>
+								<ul class="actions">
+									<li><a href="contact.html" class="button">Learn More</a></li>
+								</ul>
 							</section>
 							
 							<section class="blurb">
@@ -633,7 +652,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							
 							<section class="blurb">
 								<h2>INSURANCE INFORMATION:</h2>
-								<p>This practice is part of the John Muir Health Physician Network, which accepts most major health insurance plans. For details, please see our <a href="https://www.johnmuirhealth.com/patients-and-visitors/payment-and-insurance/health_plan_enrollment_center/accepted-insurance-plans.html?cid=web:doc-profile-insurance:fad" target="_blank">insurance list</a> or call the office.</p>
+								<p>This practice is part of the John Muir Health Physician Network, which accepts most major health insurance plans. For details, please see our <a href="https://www.johnmuirhealth.com/patients-and-visitors/payment-and-insurance/health_plan_enrollment_center/accepted-insurance-plans.html?cid=web:doc-profile-insurance:fad">insurance list</a> or call the office.</p>
 								<!-- <ul class="actions">
 									<li><a href="single.html" class="button">Learn More</a></li>
 								</ul> -->
@@ -656,6 +675,22 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- Scripts -->
+		<script>
+			new TypeIt("#type1", {
+  				strings: "Aamir A. Faruqui MD Inc.",
+  				speed: 50,
+  				waitUntilVisible: true,
+			})	
+			.go();
+			
+			new TypeIt("#type2", {
+				startDelay: 2000,
+  				strings: "Serving Walnut Creek Since 2006",
+  				speed: 50,
+  				waitUntilVisible: true,
+			}).pause(200)
+			.go();
+		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

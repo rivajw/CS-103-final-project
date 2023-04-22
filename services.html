@@ -140,7 +140,7 @@
 
 								<div id="consult">
 									<h2>Schedule a Consultation</h2>
-									<p>Leave your name, email, and phone number and we will follow up with you as soon as we can!</p>
+									<p>Leave your name, and phone number and we will follow up with you as soon as we can!</p>
 
 									
 										<label for="name">Name:</label><br>
@@ -153,6 +153,7 @@
 										<input type="text" id="message" name="message"><br>
 									
 										<button onclick="sendMail()">Submit</button>
+										<button onclick="clearField()">Clear</button>
 									
 									
 									
@@ -202,6 +203,13 @@
 		window.location.href = link;
 	}
 		</script>
+	<script>
+		function clearField() {
+			document.getElementById('name').value = '';
+			document.getElementById('number').value = '';
+			document.getElementById('message').value = '';
+		}
+	</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

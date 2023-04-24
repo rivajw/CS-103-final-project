@@ -200,6 +200,12 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.pics {
+		display: block;
+		max-width: 25%;
+		max-height: 50%;
+	}
+
 	#mainpic {
 		display: block;
 		margin-left: auto;

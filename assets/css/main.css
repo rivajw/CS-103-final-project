@@ -25,6 +25,12 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+/* 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+ */
+
 #map {
 	text-align: center;
 	padding-bottom: 3%;
